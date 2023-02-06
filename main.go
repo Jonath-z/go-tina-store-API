@@ -12,6 +12,7 @@ func main() {
 
 	configs.ConnectDB()
 	routes.UserRoute(app)
+	routes.ProductRoute(app)
 
 	app.Listen(":4040")
 }
